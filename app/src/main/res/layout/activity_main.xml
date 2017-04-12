@@ -24,7 +24,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Email login"
         android:ems="10"
         android:id="@+id/editTextEmail"
         android:layout_weight="1" />
@@ -43,8 +42,7 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/editTextPassword"
-        android:layout_weight="1"
-        tools:text="password" />
+        android:layout_weight="1" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -53,11 +51,17 @@
         android:layout_weight="1">
 
         <Button
-            android:text="Login"
+            android:text="Normal Login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/buttonLogin"
             android:layout_weight="1" />
+
+        <Button
+            android:text="Create User"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonCreateLogin" />
 
         <Button
             android:text="Google Login"
@@ -65,12 +69,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/buttonGoogleLogin"
             android:layout_weight="1" />
-
-        <Button
-            android:text="Create Login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/buttonCreateLogin" />
 
     </LinearLayout>
 
