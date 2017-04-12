@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "908938710376-qvqg4lipq3i0v43b993ab81ffvehep4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "css.cis3334.firebaseauthentication",
+            "certificate_hash": "ee5a61a3ca0591fdb3b71dd2745389b0f48ee006"
+          }
+        },
+        {
           "client_id": "908938710376-316r143sn2vqfb3cp0fsqcbrlnjoubdg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -30,6 +38,9 @@
       "api_key": [
         {
           "current_key": "AIzaSyDtvI7i_9qbYjB75KAR7DLn2KGGl-IJiZk"
+        },
+        {
+          "current_key": "AIzaSyA4uFmU5utLkSne6QxLQDWaSr5i_bnpf0s"
         }
       ],
       "services": {

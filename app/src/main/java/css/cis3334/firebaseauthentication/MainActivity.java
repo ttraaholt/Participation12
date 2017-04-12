@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity
 
         buttonCreateLogin.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Log.d("CIS3334", "normal login ");
+                Log.d("CIS3334", "Create Account ");
                 createAccount(editTextEmail.getText().toString(), editTextPassword.getText().toString());
             }
         });
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity
 
         buttonSignOut.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Log.d("CIS3334", "Google login ");
+                Log.d("CIS3334", "Logging out - signOut ");
                 signOut();
             }
         });
@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity
                         if (!task.isSuccessful()) {
                             Log.w("CIS3334", "signInWithEmail:failed", task.getException());
                             Toast.makeText(MainActivity.this, "FAIL", Toast.LENGTH_LONG).show();
-                            textViewStatus.setText("Create Account Fail");
+                            textViewStatus.setText("SignIn Fail");
                         }
                     }
                 });
